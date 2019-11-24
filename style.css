@@ -1,0 +1,134 @@
+@font-face {
+    font-family: '04B';
+    src: url('polices/04B_30_.TTF');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'crached';
+    src: url('polices/Crashed\ Scoreboard.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-image: url(img/back.jpg);
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    color: antiquewhite;
+    font-family: '04B';
+    font-size: 5em;
+    margin-bottom: 10px;
+    margin-top: 5px;
+
+}
+
+#circle {
+    height: 500px;
+    width: 500px;
+    margin-top: 30px;
+    background: grey;
+    border-radius: 50%;
+    position: relative;
+    left: 508px;
+
+}
+
+#topleft {
+    height: 250px;
+    width: 250px;
+    background: blue;
+    border-radius: 250px 0 0 0;
+    position: absolute;
+    border-width: 4px;
+    border-style: solid;
+    border-color: antiquewhite;
+
+}
+
+#topright {
+    height: 250px;
+    width: 250px;
+    background: red;
+    border-radius: 0 250px 0 0;
+    position: absolute;
+    margin-left: 250px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: antiquewhite;
+}
+
+#bottomleft {
+    height: 250px;
+    width: 250px;
+    background: yellow;
+    border-radius: 0 0 0 250px;
+    position: absolute;
+    margin-top: 250px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: antiquewhite;
+}
+
+#bottomright {
+    height: 250px;
+    width: 250px;
+    background: green;
+    border-radius: 0 0 250px 0;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 250px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: antiquewhite;
+}
+
+p {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: cornsilk;
+}
+
+
+
+.btnstart {
+    margin-left: 690px;
+    width: 150px;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #01d758;
+    color: antiquewhite;
+    text-decoration: none;
+    font-family: '04B';
+}
+
+.btnstart1 {
+    margin-left: 1250px;
+    widows: 170px;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #01d758;
+    color: antiquewhite;
+    text-decoration: none;
+    font-family: '04B';
+}
+
+.score {
+
+    border: solid 2px black;
+    border-radius: 10px;
+    color: red;
+    font-family: 'crached';
+    text-align: center;
+    width: 60px;
+    height: 45px;
+    font-size: 40px;
+    background-color: #342637;
+
+}
